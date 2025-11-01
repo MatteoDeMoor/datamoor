@@ -391,6 +391,25 @@ section {
     align-items: center;
 }
 
+.contact-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+    padding: 0;
+    margin: 1.5rem 0 0;
+}
+
+.contact-links a {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.contact-links a:hover,
+.contact-links a:focus {
+    text-decoration: underline;
+}
+
 .contact {
     background: rgba(31, 75, 255, 0.04);
 }

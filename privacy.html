@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DataMoor – Privacy</title>
+    <link rel="icon" href="images/DataMoor.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        main {
+            padding: 4rem 0;
+        }
+        .legal-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        .legal-section + .legal-section {
+            margin-top: 2.5rem;
+        }
+        .language-note {
+            font-size: 0.95rem;
+            color: #4f5d75;
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+            color: var(--color-primary, #1a4d8f);
+        }
+        .back-link:hover,
+        .back-link:focus {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header" role="banner">
+        <div class="container header-content">
+            <a href="index.html" class="brand" aria-label="Terug naar DataMoor homepage">
+                <img src="images/DataMoor.png" alt="DataMoor logo" class="brand-logo" width="40" height="40">
+                <span class="brand-name">DataMoor</span>
+            </a>
+            <a class="back-link" href="index.html">&larr; Terug naar startpagina</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="legal-container">
+            <p class="language-note">Deze pagina bevat informatie in het Nederlands en het Engels.</p>
+
+            <section class="legal-section" aria-labelledby="privacy-nl">
+                <h1 id="privacy-nl">Privacyverklaring (NL)</h1>
+                <p>Ik behandel jouw gegevens zorgvuldig en gebruik ze enkel voor het beantwoorden van je vraag of het uitvoeren van een opdracht. Gegevens worden bewaard zolang nodig voor de samenwerking en nooit verkocht aan derden.</p>
+                <p>Je hebt het recht om je gegevens in te kijken, te laten corrigeren of te laten verwijderen. Stuur daarvoor een e-mail naar <a href="mailto:Matteo.de.moor@skynet.be">Matteo.de.moor@skynet.be</a>. Voor vragen over beveiliging of opslag neem ik binnen twee werkdagen contact met je op.</p>
+            </section>
+
+            <section class="legal-section" aria-labelledby="privacy-en">
+                <h2 id="privacy-en">Privacy Notice (EN)</h2>
+                <p>I handle your information with care and only use it to answer your inquiry or deliver an agreed service. Data is retained for as long as required to collaborate and is never sold to third parties.</p>
+                <p>You can request access, correction, or deletion of your data at any time. Email <a href="mailto:Matteo.de.moor@skynet.be">Matteo.de.moor@skynet.be</a> to submit your request. Questions about security or storage receive a reply within two business days.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="jaar"></span> DataMoor. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('jaar').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

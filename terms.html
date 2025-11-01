@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DataMoor – Voorwaarden</title>
+    <link rel="icon" href="images/DataMoor.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        main {
+            padding: 4rem 0;
+        }
+        .legal-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        .legal-section + .legal-section {
+            margin-top: 2.5rem;
+        }
+        .language-note {
+            font-size: 0.95rem;
+            color: #4f5d75;
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+            color: var(--color-primary, #1a4d8f);
+        }
+        .back-link:hover,
+        .back-link:focus {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header" role="banner">
+        <div class="container header-content">
+            <a href="index.html" class="brand" aria-label="Terug naar DataMoor homepage">
+                <img src="images/DataMoor.png" alt="DataMoor logo" class="brand-logo" width="40" height="40">
+                <span class="brand-name">DataMoor</span>
+            </a>
+            <a class="back-link" href="index.html">&larr; Terug naar startpagina</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="legal-container">
+            <p class="language-note">Deze pagina bevat informatie in het Nederlands en het Engels.</p>
+
+            <section class="legal-section" aria-labelledby="terms-nl">
+                <h1 id="terms-nl">Algemene voorwaarden (NL)</h1>
+                <p>Projecten worden uitgevoerd op basis van een duidelijke offerte met scope, timing en deliverables. Extra werk buiten de afgesproken scope gebeurt in overleg en wordt afzonderlijk geoffreerd.</p>
+                <p>Facturatie gebeurt volgens de afgesproken milestones. Betaling is verschuldigd binnen 30 dagen na factuurdatum. Eventuele klachten meld je binnen zeven dagen na levering zodat we samen een oplossing kunnen zoeken.</p>
+            </section>
+
+            <section class="legal-section" aria-labelledby="terms-en">
+                <h2 id="terms-en">Terms & Conditions (EN)</h2>
+                <p>Projects are delivered according to a proposal that outlines scope, timing, and deliverables. Any additional work outside the agreed scope will be discussed first and quoted separately.</p>
+                <p>Invoices follow the agreed milestones and are payable within 30 days. Please report any issues within seven days of delivery so we can resolve them together.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="jaar"></span> DataMoor. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('jaar').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

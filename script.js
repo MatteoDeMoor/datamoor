@@ -42,7 +42,7 @@ const I18N = {
             items: {
                 one: "1 kernvraag (sales/voorraad/winstgevendheid)",
                 two: "1 live dashboard",
-                three: "Koppelingen: CSV, Excel, Google Sheets, Webshop/POS",
+                three: "Koppelingen: CSV, Excel, Google Sheets",
                 four: "Korte training + video-handleiding"
             }
         },
@@ -99,7 +99,7 @@ const I18N = {
                 },
                 two: {
                     q: "Welke tools gebruik je?",
-                    a: "Ik werk vooral met Power BI, Microsoft Fabric en Python, aangevuld met automatisatie in Power Platform."
+                    a: "Ik werk vooral met Power BI, Microsoft Fabric, Microsoft Azure en Python. Voor snelle prototypes zet ik ook Streamlit en Plotly Dash in."
                 },
                 three: {
                     q: "Heb ik Power BI-licenties nodig?",
@@ -121,10 +121,10 @@ const I18N = {
         },
         about: {
             title: "Over mij",
-            bio: "Ik ben Matteo De Moor, Data Engineer (AI). Ik bouw lichte, schaalbare datastromen en dashboards die KMO’s echt gebruiken.",
+            bio: "Ik studeerde af als Bachelor Toegepaste Informatica met een specialisatie in AI & Data Engineering. Nu start ik bij Agoria als Junior Data & ML Engineer, klaar om mijn skills in data-analyse, machine learning en artificiële intelligentie op echte cases toe te passen en mee te bouwen aan innovatieve projecten.",
             links: {
-                linkedin: "LinkedIn",
-                email: "E-mail Matteo"
+                linkedin: "LinkedIn-profiel (opent in nieuw venster)",
+                email: "E-mail: Matteo.de.moor@skynet.be"
             }
         },
         contact: {
@@ -147,7 +147,7 @@ const I18N = {
                     label: "Bericht",
                     placeholder: "Waarmee kan ik helpen?"
                 },
-                consent: "Ik ga akkoord met het verwerken van mijn gegevens volgens de privacyverklaring.",
+                consent: "Ik ga akkoord met het verwerken van mijn gegevens volgens de <a href=\"privacy.html\">privacyverklaring</a>.",
                 submit: "Verstuur",
                 reset: "Reset",
                 package: {
@@ -211,7 +211,7 @@ const I18N = {
             items: {
                 one: "One core question (sales/inventory/profitability)",
                 two: "1 live dashboard",
-                three: "Connectors: CSV, Excel, Google Sheets, Webshop/POS",
+                three: "Connectors: CSV, Excel, Google Sheets",
                 four: "Short training + video guide"
             }
         },
@@ -268,7 +268,7 @@ const I18N = {
                 },
                 two: {
                     q: "Which tools do you use?",
-                    a: "Primarily Power BI, Microsoft Fabric, and Python, complemented by automation in the Power Platform."
+                    a: "Primarily Power BI, Microsoft Fabric, Microsoft Azure, and Python. For rapid prototypes I also use Streamlit and Plotly Dash."
                 },
                 three: {
                     q: "Do I need Power BI licenses?",
@@ -290,10 +290,10 @@ const I18N = {
         },
         about: {
             title: "About me",
-            bio: "I’m Matteo De Moor, a Data Engineer (AI). I build lean, scalable data pipelines and dashboards that SMEs actually use.",
+            bio: "I graduated as a Bachelor in Computer Science, specializing in AI & Data Engineering. Currently, I am starting my professional journey at Agoria as a Junior Data & ML Engineer, where I am excited to apply my skills in data analysis, machine learning, and artificial intelligence to real-world challenges and contribute to innovative projects.",
             links: {
-                linkedin: "LinkedIn",
-                email: "Email Matteo"
+                linkedin: "LinkedIn profile (opens in new tab)",
+                email: "Email: Matteo.de.moor@skynet.be"
             }
         },
         contact: {
@@ -316,7 +316,7 @@ const I18N = {
                     label: "Message",
                     placeholder: "How can I help?"
                 },
-                consent: "I agree to the processing of my data according to the privacy policy.",
+                consent: "I agree to the processing of my data according to the <a href=\"privacy.html\">privacy policy</a>.",
                 submit: "Send",
                 reset: "Reset",
                 package: {
