@@ -11,7 +11,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://datamoor.example">
     <meta property="og:image" content="images/DataMoor.png">
-    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="icon" href="images/DataMoor.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body id="top">
@@ -59,13 +59,12 @@
                 <ul class="badge-list" aria-label="Technologie badges">
                     <li>Power BI</li>
                     <li>Microsoft Fabric</li>
+                    <li>Microsoft Azure</li>
                     <li>Python</li>
                     <li>SQL</li>
-                    <li>Power Automate</li>
-                    <li>Azure Data Factory</li>
                     <li>SharePoint</li>
-                    <li>Teams</li>
-                    <li>Dataverse</li>
+                    <li>Streamlit</li>
+                    <li>Plotly Dash</li>
                     <li>GitHub</li>
                     <li>&hellip;</li>
                 </ul>
@@ -104,7 +103,7 @@
                 <ul class="feature-list">
                     <li data-i18n="features.items.one">1 kernvraag (sales/voorraad/winstgevendheid)</li>
                     <li data-i18n="features.items.two">1 live dashboard</li>
-                    <li data-i18n="features.items.three">Koppelingen: CSV, Excel, Google Sheets, Webshop/POS</li>
+                    <li data-i18n="features.items.three">Koppelingen: CSV, Excel, Google Sheets</li>
                     <li data-i18n="features.items.four">Korte training + video-handleiding</li>
                 </ul>
             </div>
@@ -209,10 +208,10 @@
                 </div>
                 <div class="about-copy">
                     <h2 id="about-title" data-i18n="about.title">Over mij</h2>
-                    <p data-i18n="about.bio">Ik ben Matteo De Moor, Data Engineer (AI). Ik bouw lichte, schaalbare datastromen en dashboards die KMO’s echt gebruiken.</p>
+                    <p data-i18n="about.bio">Ik studeerde af als Bachelor Toegepaste Informatica met een specialisatie in AI &amp; Data Engineering. Nu start ik bij Agoria als Junior Data &amp; ML Engineer, klaar om mijn skills in data-analyse, machine learning en artificiële intelligentie op echte cases toe te passen en mee te bouwen aan innovatieve projecten.</p>
                     <ul class="contact-links">
-                        <li><a href="https://www.linkedin.com" target="_blank" rel="noopener" data-i18n="about.links.linkedin">LinkedIn</a></li>
-                        <li><a href="mailto:matteo@example.com" data-i18n="about.links.email">E-mail Matteo</a></li>
+                        <li><a href="https://www.linkedin.com/in/matteodemoor" target="_blank" rel="noopener noreferrer" data-i18n="about.links.linkedin">LinkedIn-profiel (opent in nieuw venster)</a></li>
+                        <li><a href="mailto:Matteo.de.moor@skynet.be" data-i18n="about.links.email">E-mail: Matteo.de.moor@skynet.be</a></li>
                     </ul>
                 </div>
             </div>
@@ -230,7 +229,7 @@
                     </div>
                     <div class="form-group">
                         <label for="email" data-i18n="contact.form.email.label">E-mail</label>
-                        <input type="email" id="email" name="email" required pattern="^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$" data-i18n-placeholder="contact.form.email.placeholder" placeholder="naam@bedrijf.be">
+                        <input type="email" id="email" name="email" required data-i18n-placeholder="contact.form.email.placeholder" placeholder="naam@bedrijf.be">
                     </div>
                     <div class="form-group">
                         <label for="company" data-i18n="contact.form.company.label">Bedrijf</label>
@@ -244,7 +243,7 @@
                     <p id="package-selected" class="package-selected" data-i18n="contact.form.package.none">Geen pakket geselecteerd.</p>
                     <div class="form-group checkbox">
                         <input type="checkbox" id="consent" name="consent" required>
-                        <label for="consent" data-i18n="contact.form.consent">Ik ga akkoord met het verwerken van mijn gegevens volgens de privacyverklaring.</label>
+                        <label for="consent" data-i18n="contact.form.consent">Ik ga akkoord met het verwerken van mijn gegevens volgens de <a href="privacy.html">privacyverklaring</a>.</label>
                     </div>
                     <div class="form-actions">
                         <button type="submit" class="button primary" data-i18n="contact.form.submit">Verstuur</button>
@@ -262,8 +261,8 @@
             <p id="footer-title" data-i18n="footer.copyright">© <span id="jaar"></span> DataMoor. Alle rechten voorbehouden.</p>
             <nav aria-label="Footer links">
                 <ul class="footer-links">
-                    <li><a href="#" data-i18n="footer.privacy">Privacy</a></li>
-                    <li><a href="#" data-i18n="footer.terms">Voorwaarden</a></li>
+                    <li><a href="privacy.html" data-i18n="footer.privacy">Privacy</a></li>
+                    <li><a href="terms.html" data-i18n="footer.terms">Voorwaarden</a></li>
                 </ul>
             </nav>
         </div>
