@@ -161,7 +161,7 @@ const I18N = {
         footer: {
             privacy: "Privacy",
             terms: "Voorwaarden",
-            copyright: "© 2024 Dashboard-in-10-Dagen. Alle rechten voorbehouden."
+            copyright: "© <span id=\"jaar\"></span> Dashboard-in-10-Dagen. Alle rechten voorbehouden."
         },
         seo: {
             title: "Dashboard-in-10-Dagen – KPI dashboards voor KMO's",
@@ -330,7 +330,7 @@ const I18N = {
         footer: {
             privacy: "Privacy",
             terms: "Terms",
-            copyright: "© 2024 Dashboard-in-10-Days. All rights reserved."
+            copyright: "© <span id=\"jaar\"></span> Dashboard-in-10-Days. All rights reserved."
         },
         seo: {
             title: "Dashboard-in-10-Days – KPI dashboards for SMEs",
@@ -359,6 +359,13 @@ const packageLabels = {
 const metaDescription = document.getElementById("meta-description");
 const ogTitle = document.getElementById("og-title");
 const ogDescription = document.getElementById("og-description");
+
+function updateYear() {
+    const yearEl = document.getElementById("jaar");
+    if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+    }
+}
 
 function translate(lang) {
     const dict = I18N[lang];
@@ -424,6 +431,7 @@ function translate(lang) {
 
     localStorage.setItem(STORAGE_KEYS.language, lang);
     updateLangButtons(lang);
+    updateYear();
 }
 
 function updateLangButtons(activeLang) {
